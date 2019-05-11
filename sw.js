@@ -1,4 +1,4 @@
-const cacheName = 'latestAnswers-v1';
+const cacheName = 'latestAnswers-v1.1';
 
 // Cache our known resources during install
 self.addEventListener('install', event => {

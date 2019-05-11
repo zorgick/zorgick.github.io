@@ -1,9 +1,10 @@
 :root {
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 
 body {
-  font-size: 11px;
+  font-size: 1.2rem;
   line-height: 18px;
   font-family: 'Roboto', sans-serif;
 }
@@ -124,7 +125,7 @@ a:visited {
 @media only screen and (min-width : 1240px){
 /* @media (min-device-width: 1240px){ */
   body {
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 20px;
     font-weight: 300;
   }
