@@ -3,8 +3,8 @@
 }
 
 body {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 11px;
+  line-height: 18px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -16,18 +16,22 @@ body {
   box-sizing: inherit;
 }
 
+h1, h2, h3, hr {
+  margin-bottom: 12px
+}
+
 h1 {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.2
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.2
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.2
 }
 
@@ -45,6 +49,13 @@ a:hover {
 
 a:visited {
   color: #3F51B5
+}
+.n8n > ul > li {
+  list-style: none
+}
+
+.n8n > ul > li > ul > li {
+  margin-left: 35px
 }
 
 .container_main, .content_container {
@@ -100,12 +111,12 @@ a:visited {
 .quote {
   background: #F5F5F5;
   border-color: #01579B;
-  padding-left: 30px;
   border-left-width: 5px;
   border-left-style: solid;
   box-sizing: border-box;
   overflow: hidden;
   padding: 10px;
+  padding-left: 20px;
   margin: 0 -15px 20px;
 }
 
@@ -116,6 +127,21 @@ a:visited {
     font-size: 16px;
     line-height: 20px;
     font-weight: 300;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 1.2
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 1.2
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 1.2
   }
 
   .container_main, .content_container {
