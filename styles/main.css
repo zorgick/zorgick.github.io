@@ -17,18 +17,18 @@ body {
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 1.6
+  font-size: 24px;
+  line-height: 1.2
 }
 
 h2 {
-  font-size: 24px;
-  line-height: 1.6
+  font-size: 20px;
+  line-height: 1.2
 }
 
 h3 {
   font-size: 18px;
-  line-height: 1.6
+  line-height: 1.2
 }
 
 a {
@@ -47,7 +47,7 @@ a:visited {
   color: #3F51B5
 }
 
-.container_main {
+.container_main, .content_container {
   padding: 0 25px;
 }
 
@@ -65,6 +65,10 @@ a:visited {
 
 .bgorange {
   background-color: LightSalmon
+}
+
+.bgcian {
+  background-color: LightCyan
 }
 
 .fontred {
@@ -90,8 +94,8 @@ a:visited {
 }
 
 .quote {
-  background: #fff3d4;
-  border-color: #f6b73c;
+  background: #F5F5F5;
+  border-color: #01579B;
   padding-left: 25px;
   border-left-width: 5px;
   border-left-style: solid;
@@ -110,7 +114,7 @@ a:visited {
     font-weight: 300;
   }
 
-  .container_main {
+  .container_main, .content_container {
     padding: 0 240px;
   }
 }
